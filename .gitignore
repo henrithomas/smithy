@@ -1,0 +1,15 @@
+virt/
+.vscode/
+*.pyc
+**/__pycache__
+**/__pycache__/*.pyc
+results/
+input/queries/
+input/sequences/
+*.pyc
+**/__pycache__
+**/__pycache__/*.pyc
+.python-version
+uwsgi_params
+venv_smithy/
+smithy/smithy.sock
