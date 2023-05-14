@@ -1,4 +1,1 @@
-assemblies
-fragment
-primers
-query
+smithy

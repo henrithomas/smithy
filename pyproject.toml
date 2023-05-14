@@ -1,16 +1,6 @@
 [build-system]
 requires = [
-    "setuptools>=61.0",
-    "appdirs==1.4.4",
-    "biopython==1.81",
-    "networkx==3.1",
-    "numpy==1.24.3",
-    "prettytable==3.7.0",
-    "primer3-py==1.2.1",
-    "pydna==5.2.0",
-    "pyfiglet==0.8.post1",
-    "pyperclip==1.8.2",
-    "wcwidth==0.2.6"
+    "setuptools>=61.0"
 ]
 build-backend = "setuptools.build_meta"
 
@@ -26,6 +16,19 @@ requires-python = ">=3.8"
 classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "appdirs==1.4.4",
+    "biopython==1.81",
+    "networkx==3.1",
+    "numpy==1.24.3",
+    "prettytable==3.7.0",
+    "primer3-py==1.2.1",
+    "pydna==5.2.0",
+    "pyfiglet==0.8.post1",
+    "pyperclip==1.8.2",
+    "wcwidth==0.2.6"
 ]
 
 [project.urls]
